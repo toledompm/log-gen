@@ -38,7 +38,7 @@ def clear_log_file(logfile):
 
 
 def main():
-  log_file = "/app/log.txt"
+  log_file = "/tmp/log.txt"
   count = 0
   while True:
       time.sleep(0.5)
